@@ -89,14 +89,15 @@ nav{
     }
 }
 .foto{
-    width: 318px;
-    height: 300px;
+    width: 90%;
+    height: auto;
     margin: 0 auto;
 }
 @media(min-width:769px){
     .foto{
-        width: 435px;
-        height: 395px;
+        width: 80%;
+        margin: 0 auto;
+        height: auto;
         grid-column: 2;
         grid-row: 2;
         align-self: flex-end;
@@ -117,7 +118,8 @@ nav{
     margin: 41px 31px 57px 31px;
 }
 .cuerpo-del-texto>p{
-    margin: 0;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .about-me>h2{
@@ -148,7 +150,10 @@ nav{
         grid-column: 2;
         grid-row: 2;
         align-self: flex-start;
-        width: 532px;
+        width: 100%;
+    }
+    .cuerpo-del-texto>p{
+    margin-left: 0 ;
     }
     
     .about-me>img{
@@ -162,8 +167,7 @@ nav{
 }
 /*----------------------------------------------------------*/
 .servicios{
-    padding: 50px 52px 0px 52px;
-    height: 200vh;
+    padding: 50px 52px 66px 52px;
     background-color:#FAFAFA;
 }
 .servicios>h2{
@@ -177,7 +181,7 @@ nav{
     align-items: center;
     grid-template-rows: 312px 312px 312px;
 }
-@media(min-width:769px){
+@media(min-width:1100px){
     .servicios{
         height: 100svh;
     }
@@ -207,7 +211,6 @@ nav{
 /*-----------------------------------------------------*/
 .contacto{
     padding:69px 52px ;
-    height: 90vh;
     background-color: #141414;
     color: #FAFAFA;
 }
@@ -259,7 +262,6 @@ nav{
     }
 }
 .footer{
-    height: 80vh;
     background-color: #DBDBDB;
     padding: 53px 16px;
     background: url(./images/puntitos.svg);
