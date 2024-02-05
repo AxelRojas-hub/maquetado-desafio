@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Maquetado</title>
+  </head>
+  <body>
+    <main class="home">
+      <header class="header">
+        <img src="./images/logo.png" alt="logo de Marce" class="header__logo" />
+        <div class="menu">
+          <nav class="nav">
+            <a href="#about-me">quien soy</a>
+            <a href="#servicios">servicios</a>
+            <a href="#contacto">escribime</a>
+          </nav>
+          <img src="./images/burger.svg" alt="icono de menu" class="burguer" />
+        </div>
+      </header>
+      <h1 class="titulo">Bienvenidxs a mi site</h1>
+      <img src="./images/persona.png" alt="Foto de Marce Zapaia" class="foto" />
+    </main>
+    <section id="about-me" class="about-me">
+      <h2>Soy Axel</h2>
+      <div class="cuerpo-del-texto">
+        <p>
+          Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+          vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat
+          arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus.
+          Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et
+          sodales semper. Mauris nec tortor lectus. Curabitur nec ultricies
+          dolor.
+        </p>
+      </div>
+      <img src="./images/check.png" alt="Icono de Check" />
+    </section>
+    <section id="servicios" class="servicios">
+      <h2>Mis servicios</h2>
+      <div class="container">
+        <div class="card">
+          <img src="./images/monitor.svg" alt="icono de monitor" />
+          <h3>Hago cosas</h3>
+          <p class="parrafo">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./images/monitor.svg" alt="icono de monitor" />
+          <h3>Y más cosas</h3>
+          <p class="parrafo">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./images/monitor.svg" alt="icono de monitor" />
+          <h3>Y también otras cosas</h3>
+          <p class="parrafo">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="contacto" class="contacto">
+      <h1>Escribime</h1>
+      <form class="form">
+        <label for="nombre">NOMBRE</label>
+        <input type="text" name="nombre" id="nombre" />
+        <label for="email">EMAIL</label>
+        <input type="email" name="email" id="email" />
+        <label for="mensaje">MENSAJE</label>
+        <textarea name="mensaje" id="mensaje" class="textarea"></textarea>
+      </form>
+      <div class="button-section">
+        <button>Enviar</button>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer_logo-con-marca">
+        <img src="./images/logo.png" alt="logo de Marce" class="footer__logo" />
+        <p class="subtexto">© 2023 Axel Rojas</p>
+      </div>
+      <div class="footer__redes">
+        <a href="https://www.instagram.com/rojasaxel._/" target="_blank">
+          <div class="red">
+            <img
+              src="./images/instagram.svg"
+              alt="icono instagram"
+              class="icono"
+            />
+            <p>Instagram</p>
+          </div>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/axelkevinagustinrojas/"
+          target="_blank"
+        >
+          <div class="red">
+            <img
+              src="./images/linkedin.svg"
+              alt="icono linkedin"
+              class="icono"
+            />
+            <p>LinkedIn</p>
+          </div>
+        </a>
+        <a href="https://github.com/AxelRojas-hub" target="_blank">
+          <div class="red">
+            <img src="./images/github.svg" alt="icono github " class="icono" />
+            <p>Github</p>
+          </div>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
