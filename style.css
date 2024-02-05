@@ -106,7 +106,7 @@ nav{
 
 /*--------------------------------------------------*/
 .about-me{
-    height: 100svh;
+    min-height: 90vh;
     background-color:#141414 ;
     color: #FAFAFA;
     display: flex;
@@ -133,6 +133,8 @@ nav{
 }
 @media(min-width:769px){
     .about-me{
+        height: auto;
+        padding: 132px 301px 169px 300px;
         display: grid;
         grid-template-columns: 35% 60%;
         column-gap: 5%;
@@ -183,7 +185,7 @@ nav{
 }
 @media(min-width:1100px){
     .servicios{
-        height: 100svh;
+        padding: 108px 52px;
     }
     .servicios .container{
         grid-template-rows: 1fr;
@@ -210,6 +212,7 @@ nav{
 }
 /*-----------------------------------------------------*/
 .contacto{
+    min-height: 90vh;
     padding:69px 52px ;
     background-color: #141414;
     color: #FAFAFA;
@@ -220,6 +223,7 @@ nav{
 }
 @media(min-width:769px){
     .contacto{
+        padding: 116px 200px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -231,6 +235,7 @@ nav{
 }
 .form > input, .textarea{
     margin-bottom: 27px;
+    min-height: 45px;
     width: 100%;
 }
 .form .textarea{
@@ -259,6 +264,9 @@ nav{
         margin: 0;
         justify-self:flex-end;
         margin-right: 77px;
+    }
+    .form .textarea{
+        height: ;
     }
 }
 .footer{
