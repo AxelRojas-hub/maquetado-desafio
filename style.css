@@ -243,6 +243,7 @@ nav{
 }
 .button-section > button{
     width: 100%;
+    min-height: 45px;
     border: none;
     background-color: #FFD953;
     padding: 13px 30.98px;
@@ -266,7 +267,7 @@ nav{
         margin-right: 77px;
     }
     .form .textarea{
-        height: ;
+        height: 376px;
     }
 }
 .footer{
