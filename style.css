@@ -163,7 +163,7 @@ nav{
 /*----------------------------------------------------------*/
 .servicios{
     padding: 50px 52px 0px 52px;
-    height: 200svh;
+    height: 200vh;
     background-color:#FAFAFA;
 }
 .servicios>h2{
@@ -207,7 +207,7 @@ nav{
 /*-----------------------------------------------------*/
 .contacto{
     padding:69px 52px ;
-    height: 90svh;
+    height: 90vh;
     background-color: #141414;
     color: #FAFAFA;
 }
@@ -259,7 +259,7 @@ nav{
     }
 }
 .footer{
-    height: 80svh;
+    height: 80vh;
     background-color: #DBDBDB;
     padding: 53px 16px;
     background: url(./images/puntitos.svg);
@@ -284,7 +284,7 @@ nav{
 }
 @media(min-width:769px){
     .footer{
-        height: 40svh;
+        height: 40vh;
         display: flex;
         justify-content: space-between;
         align-items: center;
