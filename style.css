@@ -266,9 +266,6 @@ nav{
         justify-self:flex-end;
         margin-right: 77px;
     }
-    .form .textarea{
-        height: 376px;
-    }
 }
 .footer{
     background-color: #DBDBDB;
